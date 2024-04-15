@@ -1,1 +1,1 @@
-Códigos que utilizam laços de repetição para realizar funções.
+Códigos que utilizam estruturas de repetição para realizar funções.
