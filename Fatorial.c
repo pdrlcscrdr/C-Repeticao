@@ -1,13 +1,13 @@
 #include<stdio.h> 
 #include<locale.h>
-//Fatorial de um número
+//Fatorial de um nÃºmero
 int main(){
 	setlocale(LC_ALL, "Portuguese");
 	int i, n, fat = 1;
-	printf("Digite um número:  \n");
+	printf("Digite um nÃºmero:  \n");
 	scanf("%i", &n);
 	if(n < 0){
-		printf("Não existe fatorial de número negativo.");
+		printf("NÃ£o existe fatorial de nÃºmero negativo.");
 	}
 	else{
 		for(i = 1; i <= n; i++){
