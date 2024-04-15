@@ -8,10 +8,10 @@ int main(){
 		printf("Informe sua idade.\n");
 		scanf("%i", &i);
 		if(i >= 18){
-			printf("Você é maior de idade.\n");
+			printf("VocÃª Ã© maior de idade.\n");
 		}
 		else{
-			printf("Você é menor de idade.\n");
+			printf("VocÃª Ã© menor de idade.\n");
 		}
 	}
 	return(0);
