@@ -4,6 +4,7 @@
 int main(){
 	setlocale(LC_ALL, "Portuguese");
 	int i, cont;
+	//Laço de repetição para perguntar a idade dos usuários
 	for(cont = 1; cont <= 10; cont ++){
 		printf("Informe sua idade.\n");
 		scanf("%i", &i);
