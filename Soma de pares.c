@@ -1,6 +1,6 @@
 #include<stdio.h> 
 #include<locale.h> 
-//Somatório dos pares de 1 até 500
+//SomatÃ³rio dos pares de 1 atÃ© 500
 int main(){
 	setlocale(LC_ALL, "Portuguese");
 	int i, s;
@@ -9,6 +9,6 @@ int main(){
 			s = s + i;
 		}
 	}
-	printf("O somatório dos pares de 1 até 500 é: %i \n", s);
+	printf("O somatÃ³rio dos pares de 1 atÃ© 500 Ã©: %i \n", s);
 	return(0);
 }
