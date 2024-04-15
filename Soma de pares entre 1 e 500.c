@@ -9,6 +9,7 @@ int main(){
 			s = s + i;
 		}
 	}
+	//Exibição do resultado
 	printf("O somatório dos pares de 1 até 500 é: %i \n", s);
 	return(0);
 }
