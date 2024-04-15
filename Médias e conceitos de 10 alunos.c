@@ -5,6 +5,7 @@ int main(){
 	setlocale(LC_ALL, "Portuguese");
 	float n1, n2, n3, m; 
 	int cont;
+	//Laço de repetição para coletar as notas e informar a média e o conceito de 10 alunos 
 	for(cont = 1; cont <= 10; cont ++){
 		printf("%iº aluno:\n", cont);
 		printf("Digite a primeira nota:\n");
