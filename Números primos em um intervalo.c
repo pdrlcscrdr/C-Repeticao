@@ -1,6 +1,6 @@
 #include<stdio.h> 
 #include<locale.h>
-//Números primos em um intervalo
+//NÃºmeros primos em um intervalo
 int main(){
 	setlocale(LC_ALL, "Portuguese");
 	int x, y, p, i, j;
