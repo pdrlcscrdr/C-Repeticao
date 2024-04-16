@@ -4,15 +4,16 @@
 int main(){
 	setlocale(LC_ALL, "Portuguese");
 	float n1, n2, n3, m; 
-	int cont;
+	int cont, i = 1;
 	//Laço de repetição para coletar as notas e informar a média e o conceito de 10 alunos 
+	inicio:
+	printf("%dº Aluno:\n\n", i++);
 	for(cont = 1; cont <= 10; cont ++){
-		printf("%iº aluno:\n", cont);
-		printf("Digite a primeira nota:\n");
+		printf("Digite a %dº nota:\n", cont++);
 		scanf("%f", &n1);
-		printf("Digite a segunda nota:\n");
+		printf("Digite a %dº nota:\n", cont++);
 		scanf("%f", &n2);
-		printf("Digite a terceira nota:\n");
+		printf("Digite a %dº nota:\n", cont++);
 		scanf("%f", &n3);
 		m = (n1 + n2 + n3) / 3;
 		if(m >= 9){
@@ -30,6 +31,9 @@ int main(){
 		else{
 			printf("Sua média foi %.1f, e o conceito obtido foi E.\n", m);
 		}
+		printf("\nProximo Aluno:\n\n");
+		goto inicio;
+		//ultilizei o "goto" para fazer com que o comando se repita. Se quizer tirar o laço "for" também funcionara.
 	}
 	return(0);
 	}
