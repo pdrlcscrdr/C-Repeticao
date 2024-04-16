@@ -33,7 +33,7 @@ int main(){
 		}
 		printf("\nProximo Aluno:\n\n");
 		goto inicio;
-		//ultilizei o "goto" para fazer com que o comando se repita. Se quizer tirar o laço "for" também funcionara.
+		//utilizei o "goto" para fazer com que o comando se repita. Se quiser tirar o laço "for" também funcionará.
 	}
 	return(0);
 	}
